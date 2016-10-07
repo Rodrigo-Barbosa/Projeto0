@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rodrigo.projeto0.MainActivity"
+    android:background="@drawable/fundo">
+
+
+    <ImageView
+        android:layout_width="225dp"
+        android:layout_height="197dp"
+        android:id="@+id/logoAdiInicial"
+        android:background="@drawable/adi"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:id="@+id/editUsuario"
+        android:layout_below="@+id/logoAdiInicial"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:hint="Nome de Usuário"/>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText4"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/editUsuario"
+        android:hint="Senha"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Entrar"
+        android:id="@+id/btnEntrar"
+        android:layout_gravity="center_horizontal"
+        android:onClick="entrar"
+        android:layout_marginTop="30dp"
+        android:clickable="false"
+        android:background="?attr/colorControlHighlight"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Esqueci a senha!"
+        android:layout_marginTop="25dp"
+        android:textColor="#4169E1"
+        android:id="@+id/textViewEsqueciSenha"
+        android:onClick="recuperaSenha"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Não tenho cadastro!"
+        android:layout_marginTop="15dp"
+        android:textColor="#4169E1"
+        android:id="@+id/textViewSemCadastro"
+        android:onClick="novoUsuario"/>
+
+
+</LinearLayout>

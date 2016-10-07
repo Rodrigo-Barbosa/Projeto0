@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Academia do Importador</string>
+    <string name="action_settings">Settings</string>
+    <string name="edtNome"></string>
+    <string name="edtEmail"></string>
+    <string name="edtCelular"></string>
+    <string name="edtsenha"></string>
+    <string name="btnCancelar">Cancelar</string>
+    <string name="btnNovoUsuario">Novo Usuário</string>
+    <string name="btnSalvarUsuario">Salvar Usuário</string>
+    <string name="btnEntrar">Entrar</string>
+    <string name="btnCadastrarProduto">Cadastrar Produto</string>
+    <string name="btnVerificarStatus">Verificar Status</string>
+    <string name="btnExibirLista">Listar Produtos</string>
+    <string name="edtNomeProduto"></string>
+    <string name="edtCodigoRastreio"></string>
+    <string name="edtDescricao"></string>
+    <string name="btnSalvarObjeto">Salvar Objeto</string>
+    <string name="title_activity_novo_usuario">Novo Usuario</string>
+    <string name="title_activity_usuario">Usuario</string>
+    <string name="title_activity_usuario_logado">Olá Fulano!</string>
+    <string name="title_activity_lista_objetos">Lista Objetos</string>
+    <string name="title_activity_cadastrar_novo_objeto">Cadastrar Objeto</string>
+    <string name="title_activity_cadastro_estado">Cadastro Estado</string>
+    <string name="edtNomeEstado"></string>
+    <string name="edtSiglaEstado"></string>
+    <string name="btnSalvaEstado">Salvar</string>
+    <string name="btnCancelarEstado">Cancelar</string>
+    <string name="title_activity_cadastro_cidade">Cadastro Cidade</string>
+    <string name="title_activity_area_administrativa">Área Administrativa</string>
+    <string name="btnCadastroEstado">Novo Estado</string>
+    <string name="btnCadastroCidade">Nova Cidade</string>
+    <string name="btnCadastroUsuario">Novo Usuário</string>
+    <string name="btnListarUsuario">Listar Usuários</string>
+    <string name="btnBanner">Novo Banner</string>
+    <string name="title_activity_banner">Banner</string>
+    <string name="btnAdministracao">Administração</string>
+    <string name="title_activity_lista_usuarios">Lista Usuarios</string>
+    <string name="title_activity_status_objeto">Status do Objeto</string>
+    <string-array name="spinCidade">
+        <item>Paranavaí</item>
+    </string-array>
+    <string-array name="spinEstado">
+        <item>Paraná</item>
+    </string-array>
+    <string name="title_activity_cadastro_banner">Cadastro Banner</string>
+    <string name="title_activity_problemas_acesso">ProblemasAcesso</string>
+    <string name="title_activity_esqueceu_senha">EsqueceuSenha</string>
+    <string name="title_activity_verifica_status">VerificaStatus</string>
+
+</resources>
